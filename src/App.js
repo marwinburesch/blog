@@ -7,7 +7,7 @@ function App() {
   const [posts, setPosts] = useState();
 
   useEffect(() => {
-    fetch("http://localhost:3004/posts")
+    fetch("http://localhost:4000/posts")
       .then((response) => response.json())
       .then((posts) => setPosts(posts));
   }, []);
@@ -17,7 +17,7 @@ function App() {
       <Header title="One More Blog" />
       {posts &&
         posts.map((post) => {
-          return <Post post={post} />;
+          return <Post key={post.id} post={post} />;
         })}
     </MainContainer>
   );
