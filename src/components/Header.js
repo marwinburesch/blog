@@ -1,5 +1,5 @@
 export default function Header({ title }) {
   return (
-    <h1 className="text-lg m-4 text-center font-bold antialiased">{title}</h1>
+    <h1 className="text-5xl m-4 text-center font-bold antialiased">{title}</h1>
   );
 }
