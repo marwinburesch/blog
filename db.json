@@ -1,0 +1,20 @@
+{
+  "posts": [
+    { "id": 1, "title": "Just another post about stuff", "author": "Marwin" },
+    {
+      "id": 2,
+      "title": "Also, read this to find out more",
+      "author": "Marwin"
+    },
+    {
+      "id": 3,
+      "title": "6 Things to get you to read this article",
+      "author": "Marwin"
+    },
+    {
+      "id": 4,
+      "title": "Why really long blog post titles may be difficult for your blog to handle",
+      "author": "Marwin"
+    }
+  ]
+}
