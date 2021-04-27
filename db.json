@@ -4,17 +4,33 @@
     {
       "id": 2,
       "title": "Also, read this to find out more",
-      "author": "Marwin"
+      "author": "Leon"
     },
     {
       "id": 3,
       "title": "6 Things to get you to read this article",
-      "author": "Marwin"
+      "author": "Namir"
     },
     {
       "id": 4,
       "title": "Why really long blog post titles may be difficult for your blog to handle",
-      "author": "Marwin"
+      "author": "Emmet"
+    },
+    { "id": 5, "title": "Just another post about stuff", "author": "Marwin" },
+    {
+      "id": 6,
+      "title": "Also, read this to find out more",
+      "author": "Johan"
+    },
+    {
+      "id": 7,
+      "title": "6 Things to get you to read this article",
+      "author": "Philipp"
+    },
+    {
+      "id": 8,
+      "title": "Why really long blog post titles may be difficult for your blog to handle",
+      "author": "Manuel"
     }
   ]
 }

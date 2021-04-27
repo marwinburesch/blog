@@ -7,7 +7,7 @@ function App() {
   const [posts, setPosts] = useState();
 
   useEffect(() => {
-    fetch("http://localhost:4000/posts")
+    fetch("http://localhost:3004/posts")
       .then((response) => response.json())
       .then((posts) => setPosts(posts));
   }, []);
@@ -16,8 +16,9 @@ function App() {
     <MainContainer>
       <Header title="One More Blog" />
       {posts &&
-        posts.map((post) => {
-          return <Post key={post.id} post={post} />;
+        posts.map((post, index) => {
+          console.log(index);
+          return <Post key={post.id} post={post} delay={index} />;
         })}
     </MainContainer>
   );
